@@ -59,7 +59,7 @@ https://github.com/user-attachments/assets/7641bee1-da76-47e7-81ea-3e251f178644
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/peaceofpaper.git
+git clone https://github.com/nagajahnavidann/peaceofpaper.git
 cd peaceofpaper
 
 ### 2. Setup the frontend
