@@ -90,7 +90,8 @@ VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 
 https://github.com/user-attachments/assets/7641bee1-da76-47e7-81ea-3e251f178644
 
-![localhost_5173_journal (1)](https://github.com/user-attachments/assets/511a7827-942a-48d9-933f-295ebd899bc3)
+![localhost_5173_journal](https://github.com/user-attachments/assets/8d27343b-a5ea-470b-bdc2-bd6f0cac3eb4)
+
 ![localhost_5173_profile](https://github.com/user-attachments/assets/9ef81c21-6a9e-438c-a79a-85cbbd7bd1a9)
 
 ### Author
