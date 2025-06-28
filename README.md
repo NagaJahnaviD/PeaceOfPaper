@@ -89,8 +89,9 @@ VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 ###Some screenshots of my application
 
 https://github.com/user-attachments/assets/7641bee1-da76-47e7-81ea-3e251f178644
-![Screenshot 2025-06-28 223847](https://github.com/user-attachments/assets/6a244310-a76a-45e9-8e48-20958c3c499c)
-![Screenshot 2025-06-28 223828](https://github.com/user-attachments/assets/3cf86f0a-d7da-4be7-99cc-95805bc0860f)
+
+![localhost_5173_journal (1)](https://github.com/user-attachments/assets/511a7827-942a-48d9-933f-295ebd899bc3)
+![localhost_5173_profile](https://github.com/user-attachments/assets/9ef81c21-6a9e-438c-a79a-85cbbd7bd1a9)
 
 ### Author
 Developed by Dannayak Naga Jahnavi
