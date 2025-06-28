@@ -1,0 +1,10 @@
+
+### create author
+POST http://localhost:3000/journal
+Content-Type: application/json
+
+{
+  "encryptedText": "Today was a calm and peaceful day.",
+  "sentiment": "positive",
+  "emotions": ["grateful", "relaxed"]
+}

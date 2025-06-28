@@ -1,0 +1,34 @@
+.react-calendar-heatmap .color-empty {
+  fill:var(--border);
+}
+
+
+
+/* Happiness - Balanced Greens */
+/* Happiness - Balanced Greens */
+.happiness-color-scale-0 { fill: #bcf8c2; } /* mint green */
+.happiness-color-scale-1 { fill: #6ce678; } /* mint green */
+.happiness-color-scale-2 { fill: #4baa55; } /* medium green */
+.happiness-color-scale-3 { fill: #2b8c34;  } /* emerald */
+.happiness-color-scale-4 { fill: #057a11; } /* deep emerald */
+
+/* Sadness - Balanced Blues */
+.sadness-color-scale-0 { fill: #bdd7fa; } /* light blue */
+.sadness-color-scale-1 { fill: #82b8f9; } /* light blue */
+.sadness-color-scale-2 { fill: #4b96f2; } /* blue */
+.sadness-color-scale-3 { fill: #2c7cfc; } /* vibrant blue */
+.sadness-color-scale-4 { fill: #2163f1; } /* royal blue */
+
+/* Anxiety - Balanced Ambers/Golds */
+.anxiety-color-scale-0 { fill: #fcefb8ee; } /* soft gold */
+.anxiety-color-scale-1 { fill: #fde68a; } /* soft gold */
+.anxiety-color-scale-2 { fill: #fcd34d; } /* goldenrod */
+.anxiety-color-scale-3 { fill: #fbbf24; } /* amber */
+.anxiety-color-scale-4 { fill: #f59e0b; } /* bold amber */
+
+/* Stress - Balanced Reds */
+.stress-color-scale-0 { fill: #ffb0b0; } /* soft red */
+.stress-color-scale-1 { fill: #ed8484; } /* soft red */
+.stress-color-scale-2 { fill: #f46464; } /* medium red */
+.stress-color-scale-3 { fill: #ef4444; } /* strong red */
+.stress-color-scale-4 { fill: #dc2626; } /* deep red */

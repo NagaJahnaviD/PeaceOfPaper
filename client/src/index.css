@@ -1,0 +1,121 @@
+@import "react-calendar/dist/Calendar.css";
+/* index.css or in a global CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap'); /* prettier handwriting font */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css or tailwind base layer */
+
+/*  */
+:root {
+  --background: #f3f4f6;      /* light gray */
+  --foreground: #1f2937;   
+  --nav: rgb(253, 248, 251);   /* dark slate */
+  --surface: #ffffff;         /* white card */
+  --primary: #4f46e5;         /* indigo */
+  --accent: #ec4899;          /* pink */
+  --secondary: #e0e7ff;       /* light periwinkle */
+  --border: #d1d5db;          /* neutral gray */
+  --muted: #6b7280;           /* gray */
+}
+
+.dark {
+  --background: #111827;
+  --nav: #161f31;
+  --foreground: #f3f4f6;
+  --surface: #1e293b;
+  --primary: #818cf8;
+  --accent: #f9a8d4;
+  --secondary: #374151;
+  --border: #4b5563;
+  --muted: #9ca3af;
+}
+
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+.animate-wiggle {
+  animation: wiggle 0.4s ease-in-out;
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-float-up {
+  animation: float-up 1.2s ease-in-out infinite;
+}
+
+/* Shiny text effect */
+.shiny-text {
+  color: var(--muted);
+  background: linear-gradient(
+    120deg,
+    transparent 40%,
+    rgba(255, 255, 255, 0.8) 50%,
+    transparent 60%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  display: inline-block;
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: -100%;
+  }
+}
+
+.shiny-text.disabled {
+  animation: none;
+}
+.dark .shiny-text {
+  color: var(--foreground); /* Brighter text in dark mode */
+}
+
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 0.1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.25;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 6s ease-in-out infinite;
+}
+
+.glow-text {
+  text-shadow: 0 0 8px rgba(129, 140, 248, 0.2), 0 0 12px rgba(236, 72, 153, 0.15);
+}
+
+
+.handwriting {
+  font-family: 'Homemade Apple', 'Lucida Handwriting', cursive;
+}

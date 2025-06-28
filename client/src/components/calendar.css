@@ -1,0 +1,39 @@
+.react-calendar {
+  width: 100%;
+  max-width: 540px; /* wider than before */
+  background-color: var(--surface);
+  color: var(--foreground);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 2rem;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.react-calendar__tile {
+  background: var(--secondary);
+  color: var(--foreground);
+  padding: 1rem 0.5rem; /* bigger cells */
+  margin: 4px;
+  transition: all 0.3s ease;
+}
+
+.react-calendar__tile:enabled:hover {
+  background: var(--accent);
+  color: var(--nav);
+  transform: scale(1.03);
+}
+
+.react-calendar__tile--active {
+  background: var(--primary);
+  color: var(--nav);
+}
+
+.react-calendar__month-view__weekdays {
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
