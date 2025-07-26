@@ -67,18 +67,15 @@ cd client
 npm install
 npm start
 
-###3. Setup the backend
-bash
-Copy code
+### 3. Setup the backend
+
 cd ../server
 npm install
 npm run dev
 
-###4. Environment Variables
+### 4. Environment Variables
 Create a .env file for your backend and frontend with the following values:
 
-env
-Copy code
 # Backend .env
 
 OPENROUTER_API_KEY=your_openrouter_api_key
